@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    @apply overflow-x-hidden scroll-smooth;
+}
+
+body {
+    @apply text-white text-[17px] tracking-wider leading-8 font-Zain;
+}
+
+.btn {
+    @apply text-white border-gray-400 border-2 bg-transparent rounded-full tracking-[1.02px] flex items-center justify-center transition-all;
+}
+
+.btn-sm {
+    @apply h-14 px-10;
+}
+
+.btn-lg {
+    @apply h-16 px-[50px];
+}
+
+.btn-gray {
+    @apply bg-gray-400 text-white hover:bg-gray-500;
+}
+
+.btn-white {
+    @apply bg-white text-gray-400 hover:bg-white/90;
+}
+
+.btn:hover {
+    @apply bg-gray-400 border-transparent duration-300 delay-100;
+}
