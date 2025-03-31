@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------------------ favicon ------------------------------------->
+    <link rel="shortcut icon" href="img/divine-logo.png" type="image/x-icon">
     <!-- css -->
     <link href="./output.css" rel="stylesheet">
     <!-- icon -->
@@ -52,7 +54,7 @@
 
                 <!-- sm nav -->
                 <nav
-                    class="snav bg-white/90 fixed w-[300px] h-screen top-0 -right-[300px] shadow-2xl lg:hidden transition-all duration-300 z-30">
+                    class="snav bg-white/90 fixed w-[300px] h-screen shadow-2xl lg:hidden transition-all duration-300 z-30 top-0 -right-[300px]">
                     <!-- nav tigger btn /look at front-->
 
                     <div class="flex flex-col items-center gap-y-10 px-12 h-full">
@@ -111,7 +113,96 @@
             </div>
         </div>
     </header>
-    <!--  -->
+    <!-- Home / text-gray-600 ?! -->
+    <section class="bg-white text-gray-600">
+        <div class="container flex flex-col items-center gap-y-12">
+            <div>
+                <p class="font-Winky text-2xl">Every one need MAKE UP</p>
+
+            </div>
+
+            <!-- menu of pages -->
+
+            <div class="flex flex-wrap justify-center gap-6 md:flex-nowrap md:justify-between gap-x-12">
+                <div class="flex flex-col items-center gap-y-2">
+                    <a href="#"><img src="./img/face-menu/eye_menu.jpg" alt=""
+                            class="w-16 h-16 rounded-full transition-transform duration-300 ease-out hover:scale-110 hover:opacity-95">
+                    </a>
+                    <p class="hover:opacity-95">چشم</p>
+                </div>
+                <div class="flex flex-col items-center gap-y-2">
+                    <a href="#"><img src="./img/face-menu/cheek_menu.jpg" alt=""
+                            class="w-16 h-16 rounded-full transition-transform duration-300 ease-out hover:scale-110 hover:opacity-95">
+                    </a>
+                    <p class="hover:opacity-95">گونه</p>
+                </div>
+                <div class="flex flex-col items-center gap-y-2">
+                    <a href="#"><img src="./img/face-menu/lip_menu.jpg" alt=""
+                            class="w-16 h-16 rounded-full transition-transform duration-300 ease-out hover:scale-110 hover:opacity-95">
+                    </a>
+                    <p class="hover:opacity-95">لب</p>
+                </div>
+                <div class="flex flex-col items-center gap-y-2">
+                    <a href="#"><img src="./img/face-menu/brow_menu.jpg" alt=""
+                            class="w-16 h-16 rounded-full transition-transform duration-300 ease-out hover:scale-110 hover:opacity-95">
+                    </a>
+                    <p class="hover:opacity-95">ابرو</p>
+                </div>
+                <div class="flex flex-col items-center gap-y-2">
+                    <a href="#"><img src="./img/face-menu/nail_menu.jpg" alt=""
+                            class="w-16 h-16 rounded-full transition-transform duration-300 ease-out hover:scale-110 hover:opacity-95 object-cover">
+                    </a>
+                    <p class="hover:opacity-95">ناخن</p>
+                </div>
+                <div class="flex flex-col items-center gap-y-2">
+                    <a href="#"><img src="./img/face-menu/skin_menu_4.jpg" alt=""
+                            class="w-16 h-16 rounded-full transition-transform duration-300 ease-out hover:scale-110 hover:opacity-95 object-cover">
+                    </a>
+                    <p class="hover:opacity-95">پوست</p>
+                </div>
+            </div>
+
+            <!-- main home-->
+
+            <div class="grid grid-cols-4 grid-rows-2 gap-4 w-full max-w-6xl h-[80vh] pt-5">
+                <!-- face img-->
+                <div class="col-span-2 row-span-2 flex items-center justify-center flex-col">
+                    <img src="./img/face-home/face_home_1.jpg" alt="face-image"
+                        class="w-full h-full object-cover object-top rounded-xl shadow-lg">
+                    <div class="text-gray-600 font-Zain text-sm lg:text-lg text-center p-4" dir="rtl">
+                        + زیبایی، جلوه‌ای از اعتماد به نفس است؛ با محصولات باکیفیت، درخشش طبیعی خود را به اوج برسانید.
+                    </div>
+                </div>
+                <!-- free space/ text -->
+                <div class="col-span-1 row-span-1 flex items-center justify-center flex-col font-Zain">
+
+                    <p class="text-gray-600 text-lg lg:text-2xl" dir="rtl"> <i class="ri-double-quotes-r"></i>
+                        تجربه ای به یاد
+                        ماندنی!
+                        <i class="ri-double-quotes-l"></i>
+                    </p>
+                    <div class="text-gray-400 text-lg">هنری بی پایان</div>
+
+                </div>
+
+                <!-- makeup img-->
+                <div class="col-span-1 row-span-1 col-start-4 flex items-center justify-center">
+                    <img src="./img/face-home/makeup_home.jpg" alt="makeup-image"
+                        class="w-full h-full object-cover rounded-xl shadow-lg">
+                </div>
+
+                <!-- skin img-->
+                <div class="col-span-2 row-span-1 flex items-center justify-center translate-y-10">
+                    <img src="./img/face-home/skin_home.jpg" alt="skin-image"
+                        class="w-full h-full object-cover rounded-xl shadow-lg">
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
 
 
 

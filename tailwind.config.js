@@ -24,7 +24,8 @@ export default {
     },
     fontFamily: {
       Baloo: ["BalooBhaijaan2", "sans-serif"],
-      Zain: ["Zain", "sans-serif"]
+      Zain: ["Zain", "sans-serif"],
+      Winky: ["Winky Sans", "sans-serif"]
     },
     container: {
       center: true,
