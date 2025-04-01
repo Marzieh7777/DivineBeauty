@@ -54,7 +54,7 @@
 
                 <!-- sm nav -->
                 <nav
-                    class="snav bg-white/90 fixed w-[300px] h-screen shadow-2xl lg:hidden transition-all duration-300 z-30 top-0 -right-[300px]">
+                    class="snav bg-white fixed w-[300px] h-screen shadow-2xl lg:hidden transition-all duration-300 z-30 top-0 -right-[300px]">
                     <!-- nav tigger btn /look at front-->
 
                     <div class="flex flex-col items-center gap-y-10 px-12 h-full">
@@ -163,14 +163,15 @@
             </div>
 
             <!-- main home-->
-
             <div class="grid grid-cols-4 grid-rows-2 gap-4 w-full max-w-6xl h-[80vh] pt-5">
                 <!-- face img-->
-                <div class="col-span-2 row-span-2 flex items-center justify-center flex-col">
+                <div
+                    class="sm:col-span-2 sm:row-span-2 col-span-3 row-span-2 flex items-center justify-center flex-col">
                     <img src="./img/face-home/face_home_1.jpg" alt="face-image"
                         class="w-full h-full object-cover object-top rounded-xl shadow-lg">
-                    <div class="text-gray-600 font-Zain text-sm lg:text-lg text-center p-4" dir="rtl">
-                        + زیبایی، جلوه‌ای از اعتماد به نفس است؛ با محصولات باکیفیت، درخشش طبیعی خود را به اوج برسانید.
+                    <div class="text-gray-600 font-Zain text-sm lg:text-lg text-center p-4 " dir="rtl">
+                        + زیبایی، جلوه‌ای از اعتماد به نفس است؛ با محصولات باکیفیت، درخشش طبیعی خود را به اوج
+                        برسانید.
                     </div>
                 </div>
                 <!-- free space/ text -->
@@ -186,16 +187,17 @@
                 </div>
 
                 <!-- makeup img-->
-                <div class="col-span-1 row-span-1 col-start-4 flex items-center justify-center">
+                <div class="sm:col-span-1 sm:row-span-1 col-start-4 sm:flex items-center justify-center hidden">
                     <img src="./img/face-home/makeup_home.jpg" alt="makeup-image"
                         class="w-full h-full object-cover rounded-xl shadow-lg">
                 </div>
 
                 <!-- skin img-->
-                <div class="col-span-2 row-span-1 flex items-center justify-center translate-y-10">
+                <div class="sm:col-span-2 sm:row-span-1 sm:flex items-center justify-center translate-y-10 hidden">
                     <img src="./img/face-home/skin_home.jpg" alt="skin-image"
                         class="w-full h-full object-cover rounded-xl shadow-lg">
                 </div>
+
             </div>
 
         </div>
