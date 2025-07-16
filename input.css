@@ -42,3 +42,23 @@ section {
 .btn:hover {
     @apply bg-gray-400 border-transparent duration-300 delay-100;
 }
+
+.btn-visit {
+    @apply text-yellow-500;
+}
+
+.btn-visit:hover {
+    @apply text-white;
+}
+
+.swiper-pagination-bullet {
+    @apply bg-green-500 w-3 h-3;
+}
+
+.btn-shop {
+    @apply transition-all;
+}
+
+.btn-shop:hover {
+    @apply duration-300 delay-100 text-yellow-500;
+}

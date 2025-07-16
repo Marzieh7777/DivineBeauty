@@ -141,3 +141,53 @@
                 </div>
 
             </div>
+            ///////////////////////////////////////////////////
+
+
+            <div class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2">
+            <div class="bg-green-900 px-10 pt-5 pb-10 space-y-5 rounded-md ">
+                <h3>
+                    <span class="text-yellow-500">Subscribe</span> to our newsletter
+
+                </h3>
+
+                <div class="flex flex-col md:flex-row gap-1">
+                    <input type="email" placeholder="Your Email Address"
+                        class="rounded-md w-full px-5 py-3 text-green-900 outline-none">
+                    <button
+                        class="flex items-center justify-center gap-1 bg-green-950 px-5 py-3 rounded-md hover:opacity-80 duration-300">
+                        <span>Subscribe</span>
+                        <i class="ri-send-plane-2-fill"></i>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        ////////////////
+            <!------------------------ footer ------------------------------------->
+
+    <footer class="bg-rose-100 text-gray-400 sm:pt-20 pt-40 pb-10 md:pt-28 relatives">
+        <!--------- newsletter ----------->
+        <div class="bg-white/85 absolute container text-white top-0 right-0 left-0 -translate-y-1/2" dir="rtl">
+            <!-- list
+            <ul class="text-gray-400 flex  gap-x-4">
+                <li><a href="#" class="border-l  pl-4 transition-all duration-300 hover:text-rose-200">فروشگاه</a></li>
+                <li><a href="#" class="border-l  pl-4 transition-all duration-300 hover:text-rose-200">محصولات</a></li>
+                <li><a href="#" class="border-l  pl-4 transition-all duration-300 hover:text-rose-200">سبدخرید</a></li>
+                <li><a href="#" class="border-l  pl-4 transition-all duration-300 hover:text-rose-200">ورود</a>
+                </li>
+                <li><a href="#" class="transition-all duration-300 hover:text-rose-200">خروج</a>
+                </li>
+            </ul>-->
+
+            <!-- form -->
+            <form class="relative flex gap-x-3">
+                <!--<label for="search-input" class="flex justify-center items-center group-[]:">
+                    <i class="ri-search-line text-xl text-rose-200"></i>
+                </label>-->
+                <input type="text" id="search-input" placeholder="جستجو ..." class="text-gray-400 outline-none w-[100px] focus:w-[180px] focus:border-b-2 focus:border-rose-200 
+                        placeholder:italic placeholder:text-base transition-all duration-150">
+            </form>
+        </div>

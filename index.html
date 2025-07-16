@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
     <!-- swiper-->
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
+    <!-- title -->
     <title>Divine Beauty</title>
 </head>
 
 <body>
 
-    <!-- Header -->
+    <!------------------------------------ Header --------------------------------------------->
     <header class="bg-rose-200 py-8 lg:pt-6 lg:pb-12">
         <div
             class="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0 relative">
@@ -54,7 +56,7 @@
 
                 <!-- sm nav ///? -->
                 <nav
-                    class="snav bg-white fixed w-[300px] h-screen shadow-2xl lg:hidden transition-all duration-300 z-30 top-0 -right-[300px]">
+                    class="snav bg-white fixed w-[300px] h-screen shadow-2xl lg:hidden transition-all duration-300 z-30 top-0 -right-[300px] ">
                     <!-- nav tigger btn /look at front-->
 
                     <div class="flex flex-col items-center gap-y-10 px-12 h-full">
@@ -113,8 +115,8 @@
             </div>
         </div>
     </header>
-    <!-- Home / text-gray-600 ?! -->
-    <section class="bg-white text-gray-600 bg">
+    <!----------------------------------- Home / text-gray-600 ?! -------------------------------->
+    <section class="bg-white text-gray-600 ">
         <div class="container flex flex-col items-center gap-y-12">
             <div>
                 <p class="font-Winky text-2xl">Every one need MAKE UP</p>
@@ -197,11 +199,244 @@
 
             </div>
 
+    </section>
 
+    <!------------------------ review - most popular products ------------------------------------->
 
+    <section id="review" class="container relative overflow-hidden mb-20 md:mb-28 text-gray-400 sm:mt-10">
+        <!--<div class="review__leaf absolute -top-8 -left-12 opacity-50">
+            <img src="assets/img/leaf-4.png" alt="leaf_image" class="w-40 md:w-52 xl:w-64">
+        </div>-->
+        <div class="review__top flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+            <h2 class="md:text-xl text-lg font-bold">پرفروش ترین محصولات</h2>
+            <p class="max-w-2xl text-rose-200">محبوب ترین برند ها</p>
+        </div>
 
+        <div class="review__swiper container bg-white">
+            <div class="swiper py-12">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 bg-white 
+                        rounded-md p-6 hover:cursor-pointer">
+                            <div class="flex flex-col items-center gap-2">
+                                <img src="./img/products/product-1.jpg" alt="review_image"
+                                    class="w-48 h-52 rounded-sm ">
+                                <div class="ml-2 flex flex-col items-center">
+                                    <p class="text-yellow-500 uppercase">John doe</p>
+                                    <p class="flex flex-row-reverse gap-1">
+                                        <span>50,000</span>
+                                        <span>تومان</span>
+                                    </p>
+                                </div>
+                                <button class="btn btn-sm btn-visit w-40 lg:w-auto mx-auto lg:mx-0">
+                                    <a href="">بازدید</a>
+                                </button>
+                                <button
+                                    class="bg-white text-lg rounded-sm px-2 py-1 border-b-2 shadow-sm btn-shop ml-auto">
+                                    <a href=""><i class="ri-shopping-cart-fill"></i></a>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 bg-white 
+                        rounded-md p-6 hover:cursor-pointer">
+                            <div class="flex flex-col items-center gap-2">
+                                <img src="./img/products/product-1.jpg" alt="review_image"
+                                    class="w-48 h-52 rounded-sm ">
+                                <div class="ml-2 flex flex-col items-center">
+                                    <p class="text-yellow-500 uppercase">John doe</p>
+                                    <p class="flex flex-row-reverse gap-1">
+                                        <span>50,000</span>
+                                        <span>تومان</span>
+                                    </p>
+                                </div>
+                                <button class="btn btn-sm btn-visit w-40 lg:w-auto mx-auto lg:mx-0">
+                                    <a href="">بازدید</a>
+                                </button>
+                                <button
+                                    class="bg-white text-lg rounded-sm px-2 py-1 border-b-2 shadow-sm btn-shop ml-auto">
+                                    <a href=""><i class="ri-shopping-cart-fill"></i></a>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 bg-white
+                        rounded-md p-6 hover:cursor-pointer">
+                            <div class="flex flex-col items-center gap-2">
+                                <img src="./img/products/product-1.jpg" alt="review_image"
+                                    class="w-48 h-52 rounded-sm ">
+                                <div class="ml-2 flex flex-col items-center">
+                                    <p class="text-yellow-500 uppercase">John doe</p>
+                                    <p class="flex flex-row-reverse gap-1">
+                                        <span>50,000</span>
+                                        <span>تومان</span>
+                                    </p>
+                                </div>
+                                <button class="btn btn-sm btn-visit w-40 lg:w-auto mx-auto lg:mx-0">
+                                    <a href="">بازدید</a>
+                                </button>
+                                <button
+                                    class="bg-white text-lg rounded-sm px-2 py-1 border-b-2 shadow-sm btn-shop ml-auto">
+                                    <a href=""><i class="ri-shopping-cart-fill"></i></a>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 bg-white border-rose-200 border-2
+                        rounded-md p-6 hover:cursor-pointer">
+                            <div class="flex flex-col items-center gap-2">
+                                <img src="./img/products/product-1.jpg" alt="review_image"
+                                    class="w-48 h-52 rounded-sm ">
+                                <div class="ml-2 flex flex-col items-center">
+                                    <p class="text-yellow-500 uppercase">John doe</p>
+                                    <p class="flex flex-row-reverse gap-1">
+                                        <span>50,000</span>
+                                        <span>تومان</span>
+                                    </p>
+                                </div>
+                                <button class="btn btn-sm btn-visit w-40 lg:w-auto mx-auto lg:mx-0">
+                                    <a href="">بازدید</a>
+                                </button>
+                                <button
+                                    class="bg-white text-lg rounded-sm px-2 py-1 border-b-2 shadow-sm btn-shop ml-auto">
+                                    <a href=""><i class="ri-shopping-cart-fill"></i></a>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="flex flex-col gap-5 bg-white border-rose-200 border-2
+                        rounded-md p-6 hover:cursor-pointer">
+                            <div class="flex flex-col items-center gap-2">
+                                <img src="./img/products/product-1.jpg" alt="review_image"
+                                    class="w-48 h-52 rounded-sm ">
+                                <div class="ml-2 flex flex-col items-center">
+                                    <p class="text-yellow-500 uppercase">John doe</p>
+                                    <p class="flex flex-row-reverse gap-1">
+                                        <span>50,000</span>
+                                        <span>تومان</span>
+                                    </p>
+                                </div>
+                                <button class="btn btn-sm btn-visit w-40 lg:w-auto mx-auto lg:mx-0">
+                                    <a href="">بازدید</a>
+                                </button>
+                                <button
+                                    class="bg-white text-lg rounded-sm px-2 py-1 border-b-2 shadow-sm btn-shop ml-auto">
+                                    <a href=""><i class="ri-shopping-cart-fill"></i></a>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
 
     </section>
+
+    <!------------------------ footer ------------------------------------->
+
+    <footer class="bg-rose-100 text-gray-400 pt-40 pb-10 md:pt-28 relative">
+        <!--------- newsletter ----------->
+        <div class="container absolute top-0 right-0 left-0 -translate-y-1/2 mt-10" dir="rtl">
+            <div class="bg-white/90 px-8 pt-3 pb-8 space-y-3 rounded-md ">
+                <h3>
+                    <span class="text-yellow-500">از جدیدترین محصولات ما مطلع شوید</span>
+
+                </h3>
+
+                <div class="flex flex-col md:flex-row gap-1">
+                    <input type="email" placeholder="ایمیل ..."
+                        class="bg-rose-100 rounded-md w-full px-5 py-3 text-gray-400 outline-none">
+                    <button
+                        class="flex items-center justify-center gap-1 bg-white text-yellow-500 px-5 py-3 rounded-md border-2 border-gray-400 hover:opacity-80 hover:text-white hover:bg-gray-400 duration-300 delay-100">
+                        <span>ثبت</span>
+                        <i class="ri-send-plane-2-fill rotate-180"></i>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--------- social icon ----------->
+        <div class="footer__icon container mt-16 mb-10">
+            <div class=" border-b border-yellow-500 relative">
+                <div class=" absolute transform -translate-y-1/2 top-0 left-0 right-0 max-w-36 mx-auto ">
+                    <div class="bg-rose-100 text-lg text-center space-x-2">
+                        <i class="ri-facebook-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                        <i class="ri-twitter-x-line hover:text-yellow-500 duration-300 cursor-pointer text-base"></i>
+                        <i class="ri-instagram-line hover:text-yellow-500 duration-300 cursor-pointer "></i>
+                        <i class="ri-linkedin-fill hover:text-yellow-500 duration-300 cursor-pointer"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------- content ----------->
+        <div class="footer__content container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start "
+            dir="rtl">
+            <!--item 1-->
+            <div>
+                <div class="text-6xl text-yellow-500 text-center inline-block ">
+                    <!--<i class="ri-leaf-fill"></i>-->
+                    <i class="ri-bluesky-line"></i>
+                    <p class="font-Winky text-xl sm:text-2xl">زیبایی الهی
+                    </p>
+                </div>
+            </div>
+            <!--item 2-->
+            <div>
+                <p class="mb-5 font-bold text-xl ">دسترسی سریع</p>
+                <div class="flex flex-col gap-1">
+                    <a href="#">فروشگاه</a>
+                    <a href="#">محصولات</a>
+                    <a href="#">سبدخرید</a>
+                    <a href="#">محبوب ها</a>
+                </div>
+            </div>
+
+            <!--item 3-->
+            <div>
+                <p class="mb-5 font-bold text-xl ">سرویس خدمات</p>
+                <div class="flex flex-col gap-1">
+                    <a href="#">حمل و نقل</a>
+                    <a href="#">سفارش حضوری</a>
+                    <a href="#">پیشنهادات</a>
+                    <a href="#">مشاوره رایگان</a>
+                </div>
+            </div>
+
+            <!--item 4-->
+            <div>
+                <p class="mb-5 font-bold text-xl ">ارتباط با ما</p>
+                <div class="flex flex-col gap-1 font-Winky">
+                    <a href="#+989903972200">2200 397 0990</a>
+                    <a href="#lightcodecamp@gmail.com">marziehfeyz7@gmail.com</a>
+                    <br>
+                    <p class="font-Zain">خیابان حافظ کوچه 23</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--------- copyright ----------->
+        <div class="copy__right container">
+            <p class="text-center mt-10 opacity-50">Copyright &copy; 2025. marziehfeyz7.</p>
+
+        </div>
+
+        <!--------- floral image ----------->
+        <div class="footer__floral left-0 bottom-0 absolute opacity-20 pointer-events-none ">
+            <img src="./img/footer/floral-1.png" alt="floral_image" class="w-full lg:w-1/2">
+        </div>
+
+
+    </footer>
+    <!-- ////////////////////////////////////////////////////////////////// -->
+
 
 
 
