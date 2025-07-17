@@ -68,3 +68,23 @@ const swiper = new Swiper('.swiper', {
         },
     }
 });
+
+
+//////// login - code - ///////////
+document.addEventListener("DOMContentLoaded", function () {
+    const input = document.getElementById("myInput");
+
+    if (!input) return; // اگه این input وجود نداره (توی این صفحه)، هیچ کاری نکن
+
+    input.addEventListener("input", function () {
+        this.value = this.value.replace(/\D/g, "").slice(0, 4);
+    });
+});
+
+
+//////////////////////////////////
+
+
+document.getElementById("myButton").addEventListener("click", function () {
+    window.location.href = "code.html"; // آدرس صفحه بعد
+});
