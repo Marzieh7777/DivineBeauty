@@ -86,5 +86,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 document.getElementById("myButton").addEventListener("click", function () {
-    window.location.href = "code.html"; // آدرس صفحه بعد
+    window.location.href = "./sign in/signin.html"; // آدرس صفحه بعد
 });
