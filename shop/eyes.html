@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------------------ favicon ------------------------------------->
+    <link rel="shortcut icon" href="../img/divine-logo.png" type="image/x-icon">
+    <!-- css -->
+    <link href="../output.css" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
+    <!-- swiper-->
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+
+    <!-- title -->
+    <title>Divine Beauty</title>
+</head>
+
+<body>
+    <div class="text-gray-400 bg-white" dir="rtl">
+        <!-- navbar and header -->
+        <div class="flex flex-row relative py-8 px-12 sm:px-14 border-b-2 border-b-rose-200">
+            <p class="w-full font-Zain text-2xl sm:text-3xl text-yellow-500 text-right">سبدخرید</p>
+            <div class="z-50 text-2xl sm:text-3xl text-left">
+                <i class="ri-shopping-cart-line text-yellow-500 duration-300 cursor-pointer"></i>
+            </div>
+        </div>
+
+        <!-- text -->
+        <div class="container mx-auto px-4 py-10">
+            <div class="flex flex-col lg:flex-row gap-10">
+
+                <!-- img -->
+                <div class="w-full lg:w-1/2 flex justify-center items-center">
+                    <div
+                        class="aspect-square w-2/3 sm:w-1/2 lg:w-full max-w-md bg-gray-100 rounded-md overflow-hidden shadow-md">
+                        <img src="../img/products/product-1.jpg" alt="محصول"
+                            class="w-full h-full object-cover hover:shadow-xl hover:-translate-y-0.5 duration-300 cursor-pointer" />
+                    </div>
+                </div>
+
+                <!-- detail of product-->
+                <div class="w-full lg:w-1/2 flex flex-col justify-between space-y-6">
+                    <div>
+                        <h1 class="text-4xl font-Winky text-yellow-500 mb-4">Velvet Matte Lipstick</h1>
+
+                        <div class="text-yellow-500 text-xs py-2">
+                            <a href="#" class="text-yellow-500 px-2 font-Jost">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                                <i class="ri-star-line text-gray-400"></i>
+                                <i class="ri-star-line text-gray-400"></i>
+                                (32 نظر)
+                            </a>
+                        </div>
+
+                        <p class="text-2xl font-semibold text-gray-400 mb-4">50,000 تومان</p>
+
+                        <div class="p-6 border-2 border-rose-200 rounded-md">
+                            <p class="text-lg leading-relaxed mb-6">
+                                بافتی سبک، رنگی غنی و ماندگاری بالا!
+                                این رژ لب مات مخملی با فرمولاسیون غنی از ویتامین E و روغن‌های طبیعی، لب‌های شما را نرم و
+                                لطیف نگه می‌دارد در حالی‌که رنگی یکدست و شیک به آن‌ها می‌بخشد.
+                                مناسب برای استفاده روزانه و مهمانی‌ها، بدون خشکی یا ترک‌خوردگی.
+                            </p>
+
+                            <div class="flex flex-row gap-4 mb-4">
+                                <button class="btn-shop1 btn-sm">پرداخت</button>
+                                <button class="btn-shop1 btn-sm">علاقه‌مندی‌ها</button>
+                            </div>
+
+                            <div class="flex items-center justify-between w-full pt-2">
+                                <div class="flex items-center gap-2">
+                                    <button class="px-3 py-1 rounded-md shadow-md bg-gray-100 text-xs opacity-50"
+                                        onclick="decrement()">-</button>
+                                    <span id="counter" class="text-md font-Jost">1</span>
+                                    <button class="px-3 py-1 rounded-md shadow-md bg-gray-100 text-xs opacity-90"
+                                        onclick="increment()">+</button>
+                                </div>
+                                <span id="price" class="text-md font-semibold">50,000 تومان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------- copyright ----------->
+    <div class="copy__right container ">
+        <p class="text-center mt-10 opacity-50 text-gray-400">Copyright &copy; 2025. marziehfeyz7.</p>
+    </div>
+
+    <script>
+        let count = 1;
+        let pricePerItem = 50000;
+        function updatePrice() {
+            document.getElementById("price").innerText =
+                (count * pricePerItem).toLocaleString() + " تومان";
+        }
+        function increment() {
+            count++;
+            document.getElementById("counter").innerText = count;
+            updatePrice();
+        }
+        function decrement() {
+            if (count > 1) {
+                count--;
+                document.getElementById("counter").innerText = count;
+                updatePrice();
+            }
+        }
+    </script>
+
+    <!--swiper-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- main js-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
