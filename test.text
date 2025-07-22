@@ -317,3 +317,83 @@
 
 
     </footer>
+
+    ///////////////////////////////////////////////////////////
+
+
+     <body class="bg-white text-gray-700 ">
+
+    <!-- پیام موفقیت -->
+    <!--<div class="max-w-5xl mx-auto mt-6 p-4 bg-green-100 text-green-800 rounded">
+        رژگونه CALLISTA به سبد خرید اضافه شد.
+    </div>-->
+
+    <!-- جدول سبد خرید -->
+    <div class="max-w-5xl mx-auto mt-20 p-4 bg-white/80 rounded-md shadow font-Zain">
+        <h2 class="text-2xl font-bold mb-4 text-center">سبد خرید شما</h2>
+
+        <div class="overflow-auto">
+            <table class="w-full text-center border-collapse">
+                <thead class="bg-gray-100">
+                    <tr class="text-sm sm:text-base">
+                        <th class="p-2 border">محصول</th>
+                        <th class="p-2 border">موجودی</th>
+                        <th class="p-2 border">تصویر</th>
+                        <th class="p-2 border">قیمت واحد</th>
+                        <th class="p-2 border">تعداد</th>
+                        <th class="p-2 border">مجموع</th>
+                        <th class="p-2 border">عملیات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white">
+                        <td class="p-2 border">رژگونه CALLISTA</td>
+                        <td class="p-2 border">10</td>
+                        <td class="p-2 border">
+                            <img src="" alt="محصول" class="w-12 h-12 mx-auto">
+                        </td>
+                        <td class="p-2 border">50,000</td>
+                        <td class="p-2 border">
+                            <div class="flex justify-center items-center gap-2">
+                                <button class="px-2 bg-gray-100 rounded">-</button>
+                                <span>1</span>
+                                <button class="px-2 bg-gray-100 rounded">+</button>
+                            </div>
+                        </td>
+                        <td class="p-2 border font-bold">307,400</td>
+                        <td class="p-2 border">
+                            <button class="btn-shop px-3 py-1 rounded">حذف</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- جزئیات سفارش -->
+        <div class="mt-6 flex flex-col md:flex-row justify-between gap-4">
+            <div>
+                <h3 class="font-bold mb-2">جزئیات سبد خرید</h3>
+                <p>تعداد کل آیتم‌ها: <strong>1</strong></p>
+                <p>مجموع قیمت: <strong>307,400 تومان</strong></p>
+                <button class="mt-4 bg-gray-700 text-white px-4 py-2 rounded">ادامه خرید</button>
+            </div>
+
+            <!-- فرم اطلاعات ارسال -->
+            <div class="flex-1">
+                <h3 class="font-bold mb-2">اطلاعات ارسال</h3>
+                <form class="grid grid-cols-1 gap-3">
+                    <input type="text" placeholder="نام تحویل‌گیرنده" class="p-2 border rounded">
+                    <input type="text" placeholder="آدرس" class="p-2 border rounded">
+                    <input type="text" placeholder="کد پستی" class="p-2 border rounded">
+                    <input type="text" placeholder="شماره تماس تحویل‌گیرنده" class="p-2 border rounded">
+                    <select class="p-2 border rounded">
+                        <option>پرداخت آنلاین</option>
+                        <option>پرداخت در محل</option>
+                    </select>
+                    <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded">تأیید سفارش</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
