@@ -39,6 +39,49 @@ closeBtn.addEventListener('click', () => {
     closeBtnIcn.classList.toggle(arrowLeftClass);
 });
 
+
+/*--------- Scroll Reveal Animations -----------*/
+
+const sr = ScrollReveal({
+    origin: 'bottom',
+    distance: '60px',
+    duration: 3000,
+    delay: 600,
+    //reset: true,
+});
+//hero
+
+sr.reveal('.hero__text', { origin: 'top' });
+
+//menu
+
+sr.reveal('.menu__card', { interval: 100, origin: 'top' });
+sr.reveal('.menu__card-1', { interval: 100, origin: 'top' });
+// main pics
+//1
+
+sr.reveal('.main__img_2', { origin: 'right' });
+sr.reveal('.main__img_1', { origin: 'left' });
+
+// title
+sr.reveal('.about__title', { origin: 'top' });
+sr.reveal('.about__title_1', { delay: 800, origin: 'top' });
+
+// popular
+
+sr.reveal('.popular__slider_all', { origin: 'top' });
+sr.reveal('.popular__slider', { delay: 800, origin: 'top' });
+
+
+// footer
+sr.reveal('.footer__all', { origin: 'top' })
+sr.reveal('.footer__text', { origin: 'top' })
+sr.reveal('.footer__floral', { origin: 'left', delay: 800 })
+// copy_right
+
+sr.reveal('.copy__right', { origin: 'top' });
+
+
 /*--------- SWIPER -----------*/
 const swiper = new Swiper('.swiper', {
     // Optional parameters
