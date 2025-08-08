@@ -27,12 +27,23 @@
 
         <!-- navbar and header -->
         <div class="flex flex-row justify-between relative py-8 px-12 sm:px-14 border-b-2 border-b-rose-200">
+            <div class="flex flex-row items-center gap-10">
 
-            <div class="flex flex-row items-center gap-3">
-                <a href="#"><img src="../img/face-menu/eye_menu.jpg" alt=""
-                        class="w-16 h-16 rounded-full transition-transform duration-300 ease-out hover:scale-110 hover:opacity-95">
-                </a>
-                <p class="hover:opacity-95 text-lg text-yellow-500">چشم</p>
+
+                <div class="flex flex-row items-center gap-3">
+                    <a href="#"><img src="../img/face-menu/eye_menu.jpg" alt=""
+                            class="w-16 h-16 rounded-full transition-transform duration-300 ease-out hover:scale-110 hover:opacity-95">
+                    </a>
+                    <p class="hover:opacity-95 text-lg text-yellow-500">چشم</p>
+                </div>
+
+
+
+
+
+
+
+
             </div>
 
             <div class="flex flex-row-reverse items-center gap-3 z-50 text-2xl sm:text-3xl text-left">
@@ -43,17 +54,51 @@
                     <img src="../img/divine-logo.png" alt="" class="w-16 h-16">
                 </a>
             </div>
+
+
         </div>
 
         <!------------------------ main - products ----------------------------------->
-        <section class="text-gray-400">
+
+
+
+
+        <!--leaf
+            <div class="about__leaf top-28 -right-12 opacity-50">
+                <img src="../img/eye/leaf-3.png" alt="leaf-iamge" class="w-40 md:w-48 xl:w-52">
+
+            </div>-->
+
+
+
+
+        <div class="text-gray-400">
             <!--blob 2-->
             <div class="w-64 h-64 bg-rose-500 rounded-full blur-3xl -z-10 
             opacity-40 absolute bottom-0 left-0">
             </div>
 
-            <div class="about__leaf absolute top-28 -right-12 opacity-50">
-                <img src="../img/eye/leaf-3.png" alt="leaf-iamge" class="w-40 md:w-48 xl:w-52">
+            <!-- فیلتر دسته‌بندی -->
+            <div class=" w-full mt-4 px-4 sm:px-6 md:px-0 mr-32" dir="rtl">
+                <div class="flex flex-col items-start gap-4 w-full ">
+                    <h2 class="text-yellow-500 text-lg sm:text-xl font-bold">دسته‌بندی محصولات</h2>
+
+                    <!-- دسته اصلی -->
+                    <div class="relative w-auto">
+                        <select id="mainCategory"
+                            class="w-auto rounded-md bg-white border-2 border-gray-400 px-4 py-2 text-sm sm:text-base text-yellow-500 focus:outline-none focus:ring-0 focus:border-transparent ">
+                            <option value="all">همه محصولات</option>
+                            <option value="brush">براش</option>
+                            <option value="shadow">سایه چشم</option>
+                            <option value="liner">خط چشم</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- leaf -->
+            <div class="about__leaf absolute top-28 -left-16 opacity-50">
+                <img src="../img/eye/leaf-3.png" alt="leaf-iamge" class="w-40 md:w-48 xl:w-52 transform scale-x-[-1]">
 
             </div>
             <div class="container flex flex-col items-center gap-y-12">
@@ -61,6 +106,8 @@
                 <div>
                     <p class="hero__text font-Winky text-2xl">Every one need MAKE UP</p>
                 </div>
+
+
 
                 <!-- product -->
                 <div
@@ -85,7 +132,6 @@
                             </button>
                         </div>
                     </div>
-
                     <!-- item 2-->
                     <div class="menu__card-1 flex flex-col gap-5 bg-white border-rose-200 border-2
                      rounded-md p-6 hover:cursor-pointer">
@@ -239,12 +285,12 @@
                 <button
                     class="px-3 py-1 rounded border text-yellow-500 border-gray-400 hover:text-white hover:bg-gray-400 duration-300 delay-100 transition-all">بعدی</button>
             </div>
-    </div>
-    <div class="about__leaf absolute -bottom-44 -left-20 opacity-50">
-        <img src="../img/eye/leaf-4.png" alt="leaf-iamge" class="w-40 md:w-48 xl:w-52">
+        </div>
+        <div class="about__leaf absolute -bottom-44 -right-20 opacity-50">
+            <img src="../img/eye/leaf-3.png" alt="leaf-iamge" class="w-40 md:w-48 xl:w-52">
 
+        </div>
     </div>
-    </section>
 
     <!------------------------ footer ------------------------------------->
     <footer class="bg-rose-100 text-gray-400 pt-40 pb-10 md:pt-28 relative">
